@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Luckiest+Guy&display=swap');
+
 
 :root {
-    --primary-color: #a67db8;
-    --secondary-color: #023047 ;
-    --accent1-color: #ffb703;
+    --primary-color: #26287D;
+    --secondary-color: #4EA8DE ;
+    --accent1-color: #64B2E3;
     --accent2-color: #8ecae6;
 
-    --heading-font: '__________', serif;
-    --paragraph-font: '__________', serif;
+    --heading-font: 'Luckiest Guy', serif;
+    --paragraph-font: 'Be Vietnam Pro', serif;
 
-    --nav-background-color: #fb8500;
-    --nav-link-color: #1f678b;
-    --nav-hover-link-color: #000;
-    --nav-hover-background-color: #219ebc;
+    --nav-background-color: #7F4BD2;
+    --nav-link-color: #ffff;
+    --nav-hover-link-color: #3b3a3a00;
+    --nav-hover-background-color: #56CFE1;
 }
 
 body {
