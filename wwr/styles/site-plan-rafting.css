@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Playfair+Display+SC&display=swap');
 
 
 :root {
     --primary-color: #26287D;
-    --secondary-color: #4EA8DE ;
+    --secondary-color: #48bfe3 ;
     --accent1-color: #64B2E3;
-    --accent2-color: #8ecae6;
+    --accent2-color: #56cfe1;
 
-    --heading-font: 'Luckiest Guy', serif;
-    --paragraph-font: 'Be Vietnam Pro', serif;
+    --heading-font: 'Playfair Display SC', serif;
+    --paragraph-font: 'Be Vietnam Pro', sans-serif;
 
     --nav-background-color: #7F4BD2;
     --nav-link-color: #ffff;
     --nav-hover-link-color: #3b3a3a00;
-    --nav-hover-background-color: #56CFE1;
+    --nav-hover-background-color: #5390d9;
 }
 
 body {
