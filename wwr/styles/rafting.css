@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Playfair+Display+SC&display=swap');
+
+:root {
+    --primary-color: #26287D;
+    --secondary-color: #48BFE3 ;
+    --accent1-color: #64B2E3;
+    --accent2-color: #56CFE1;
+
+    --heading-font: 'Playfair Display SC', serif;
+    --paragraph-font: 'Be Vietnam Pro', sans-serif;
+}
+
+.hero {
+    position: relative;
+  }
+  
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+  
+.hero h1 {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    opacity: 0.8;
+    padding: 15px;
+}
+  
+.hero article {
+    position: absolute;
+    top: 35%;
+    left: 7%;
+    right: 7%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+}
+  
+.hero article img {
+    width: 200px;
+    float: right;
+}
+
+h2 img {
+    width: 25px;
+    padding: 200px;
+}
+
+footer p {
+    position: absolute;
+    float: left;
+}
+
+a img{
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    
+}
