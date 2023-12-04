@@ -8,11 +8,43 @@
 
     --heading-font: 'Playfair Display SC', serif;
     --paragraph-font: 'Be Vietnam Pro', sans-serif;
+
+    --nav-background-color: #7F4BD2;
+    --nav-link-color: #ffff;
+    --nav-hover-link-color: #3b3a3a00;
+    --nav-hover-background-color: #5390d9;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 20px;
+    margin: 1rem auto;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+    padding: 20px;
+    background-color: var(--accent2-color);
+}
+
+header img {
+    margin-left: 8rem;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}   
+
+nav a {
+    text-decoration: none;
+}
+
 
 .hero {
     position: relative;
-  }
+}
   
 .hero img {
     display: block;
@@ -46,25 +78,67 @@
     float: right;
 }
 
-h2 img {
-    width: 25px;
-    padding: 200px;
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
 }
 
-footer p {
-    position: absolute;
-    float: left;
+section p {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
 }
 
-a img{
-    float: left;
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 2px;
+    width: 170px;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+}
+
+figure img {
+    width: 170px;
+    height: 120px;
+}
+  
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+section {
+    background-color: var(--accent1-color);
+    border: #222;
+    padding: 1.5px;
+    margin: 0.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: var(--nav-hover-background-color);
+}
+
+footer img {
     height: 50px;
     width: 50px;
 }
 
-
 body {
     width: 1000px;
     margin: 0 auto;
-    
 }
