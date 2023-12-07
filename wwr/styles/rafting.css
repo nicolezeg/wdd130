@@ -19,28 +19,34 @@ header {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    padding: 20px;
+    padding: 2px;
     margin: 1rem auto;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
-    padding: 20px;
-    background-color: var(--accent2-color);
-}
-
-header img {
-    margin-left: 7rem;
+    max-height: 200px;
+    background-color: var(--primary-color);
 }
 
 nav {
+    padding: 1rem;
     display: flex;
-    justify-content: flex-end;
-    gap: 50px;
-}   
-
-nav a {
-    text-decoration: none;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 90px;
 }
 
+nav a {
+    color: white;
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+/*About selectors*/
+header img {
+    margin-left: 7rem;
+}
 
 .hero {
     position: relative;
@@ -98,8 +104,8 @@ h2 {
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
-    flex-direction: column;
     flex-wrap: nowrap;
+    flex-direction: row;
     padding: 2px;
     width: 170px;
     margin: 0 10px 10px 0;
@@ -120,22 +126,140 @@ figcaption {
 }
 
 section {
-    background-color: var(--accent1-color);
+    background-color: rgba(60, 60, 240, 0.37);
     border: #222;
     padding: 1.5px;
     margin: 0.5rem;
 }
+/*contact selectors*/
+.rectangle h1 {
+    text-align: center;
+    color: #26287D;
+}
 
+.rectangle p {
+    text-align: center;
+    padding: 1rem;
+}
+.rectangle {
+	width: 985px;
+	height: 217px;
+	padding: 8px 8px 8px 8px;
+	background: rgba(65, 65, 216, 0.178);
+	border-radius: 3px 3px 3px 3px;
+}
+
+.map {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.employee-profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information h2 {
+    color: #26287D;
+    text-align: left;
+}
+
+/*Form Caracteristics*/
+form {
+    width: 500px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    padding: 0.5rem;
+}
+
+label, input, button, select, textarea {
+    font-family: PT Serif, Arial, sans-serif;
+}
+label {
+    text-align: left;
+    padding-right: 1rem;
+    margin: 0.5rem;
+}
+
+input, select, textarea {
+    padding: 0.4rem;
+    font-size: 1rem;
+}
+
+input [type="checkbox"] {
+    width: 40px;
+    height: 40px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(38, 38, 112);
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(168, 1, 168);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 1fr ;
+    margin: 0.5rem ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.column1 label {
+    text-align: left;
+}
+
+.column2 {
+    grid-template-columns: 1fr 3fr;
+}
+
+.column3 label {
+    text-align: left;
+}
+
+.column4 {
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+/*Footer part*/
 footer {
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
-    background-color: var(--nav-hover-background-color);
+    padding: 2px;
+    background-color: var(--primary-color);
+    color: #fff;
 }
 
-footer img {
-    height: 50px;
+footer a img {
     width: 50px;
+    padding: 5px;
 }
 
 body {
