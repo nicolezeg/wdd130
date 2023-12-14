@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville:wght@700&family=PT+Serif&display=swap');
 
 :root {
     --primary-color: #26287D;
@@ -6,7 +6,6 @@
     --accent1-color: #64B2E3;
     --accent2-color: #56CFE1;
 
-    --heading-font: 'Playfair Display SC', serif;
     --paragraph-font: 'Be Vietnam Pro', sans-serif;
 
     --nav-background-color: #7F4BD2;
@@ -27,7 +26,7 @@ header {
     background-color: var(--primary-color);
 }
 
-nav {
+.ways {
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -43,9 +42,9 @@ nav a {
     font-size: 1.2rem;
     font-weight: 700;
 }
-/*About selectors*/
+ /*About selectors*/
 header img {
-    margin-left: 7rem;
+    margin-left: 6rem;
 }
 
 .hero {
@@ -67,6 +66,9 @@ header img {
     color: white;
     opacity: 0.8;
     padding: 15px;
+    font-style: normal;
+    font-family: 'Bebas Neue';
+    font-size: 48px;
 }
   
 .hero article {
@@ -90,6 +92,18 @@ h2 {
     padding-top: 1rem;
 }
 
+.history {
+    background-color: #4864e3;
+    margin-top: 1rem;
+}
+.history h2 {
+    margin: 0.5rem;
+}
+.history p {
+    font-size: large;
+    margin: 0.5rem;
+}
+
 section p {
     display: flex;
     justify-content: center;
@@ -99,6 +113,8 @@ section p {
 h2 {
     display: flex;
     justify-content: center;
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
 }
 
 figure {
@@ -106,7 +122,7 @@ figure {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    padding: 2px;
+    padding: 4px;
     width: 170px;
     margin: 0 10px 10px 0;
     display: inline-block;
@@ -126,20 +142,29 @@ figcaption {
 }
 
 section {
-    background-color: rgba(60, 60, 240, 0.37);
+    background-color: rgba(254, 254, 255, 0.418);
     border: #222;
-    padding: 1.5px;
-    margin: 0.5rem;
+    padding: 1px;
+    margin-bottom: 0.5rem;
 }
-/*contact selectors*/
+.about-images {
+    display: flex;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+ /*contact selectors*/
 .rectangle h1 {
     text-align: center;
     color: #26287D;
+    font-size: 3.6rem;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .rectangle p {
     text-align: center;
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: large;
 }
 .rectangle {
 	width: 985px;
@@ -148,16 +173,37 @@ section {
 	background: rgba(65, 65, 216, 0.178);
 	border-radius: 3px 3px 3px 3px;
 }
-
-.map {
-    display: flex;
-    justify-content: flex-start;
+.rectangle button {
+    text-align: center;
+    margin-left: 342px;
+    width: 300px;
+    margin-top: auto;
+}
+.employees-profile h2 {
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
+    color: #26287D;
+}
+.employees {
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 46px;
+}
+.employees figure {
+    width: 240px;
 }
 
-.employee-profile {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.employees figcaption {
+    width: 235px;
+}
+  
+.employees img {
+    width: 240px;
+    height: 150px;
+}
+  
+.employees h3, .employees p {
+    text-align: center;
 }
 
 .information h2 {
@@ -165,7 +211,23 @@ section {
     text-align: left;
 }
 
-/*Form Caracteristics*/
+.contact-message {
+    display: flex;
+    justify-content: center;
+}
+.information-map h2 {
+    font-family: 'Bebas Neue';
+    color: var(--primary-color);
+}
+.information-map {
+    display: flex;
+    padding-top: 15px;
+}
+.column {
+    flex: 50%;
+}
+
+ /*Form Caracteristics*/
 form {
     width: 500px;
     margin: 1rem;
@@ -214,7 +276,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(168, 1, 168);
+    background-color: rgb(38, 151, 226);
 }
 
 .form-item {
@@ -246,22 +308,134 @@ button:hover {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+} 
+/*Home selectors*/
+.newsletter legend {
+    font-family: 'Bebas Neue';
+    color: #26287D;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+.newsletter{
+    display: flex;
+    justify-content: center;
+}
+.newsletter form {
+    width: 300px;
+}
+.cta {
+    text-align: center;
+}
+.cta h2 {
+    color: #26287D;
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
+}
+.grid-container {
+    display: inline-block;
+}
+.grid-item {
+    display: inline-block;
+    margin-right: 1px;
+    margin-left: 7.5rem;
+}
+.grid-item figure {
+    width: 320px;
+    border: none;
+}
+.grid-item img {
+    width: 320px;
+    height: 220px;
+}
+.grid-item h3 {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-weight: 100;
+}
+.grid-item p {
+    text-align: center;
+}
+ /*Trip forms*/
+.trip-information h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: xx-large;
+}
+.trip {
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 35px;
+}
+.trip figure {
+    width: 260px;
 }
 
-/*Footer part*/
+.trip figcaption {
+    width: 254px;
+    font-family: 'Bebas Neue';
+    font-size: large;
+}
+  
+.trip img {
+    width: 260px;
+    height: 150px;
+}
+  
+.trip h3, .trip p {
+    text-align: center;
+}
+
+ /*Table form*/ 
+
+.table {
+    font-family: 'Bebas Neue';
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+  
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+  
+th {
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+ /*Footer part*/
 footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 2px;
     background-color: var(--primary-color);
     color: #fff;
 }
-
-footer a img {
-    width: 50px;
-    padding: 5px;
+footer p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2px;
 }
 
+.wireframe img {
+    width: 50px;
+}
+nav img {
+    width: 50px;
+}
 body {
     width: 1000px;
     margin: 0 auto;
